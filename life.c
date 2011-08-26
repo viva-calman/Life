@@ -139,7 +139,6 @@ void SetPoint(int x, int y)
 	int xm,ym;
 	xm=x/10;
 	ym=y/10;
-	printf ("point set %d/%d \n",xm,ym);
 	if (field[xm][ym].current==false)
 	{
 		field[xm][ym].current=true;
